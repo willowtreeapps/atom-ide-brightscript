@@ -7,8 +7,8 @@ class BrightScriptLanguageClient extends AutoLanguageClient {
   getServerName () { return 'WillowTreeApps'; }
 
   startServerProcess () {
-    const args = [ 'node_modules/@willowtreeapps/hinoki/server/src/bin/cli.ts' ];
-    return super.spawnChildNode(args, { cwd: path.join(__dirname, '..') });
+    const args = path.join(require.resolve('@willowtreeapps/hinoki'),'/../','bin/cli');
+    return super.spawnChildNode([args], { cwd: path.join(__dirname, '..') });
   }
 }
 

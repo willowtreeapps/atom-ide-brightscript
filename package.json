@@ -1,6 +1,6 @@
 {
   "name": "atom-ide-brightscript",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "BrightScript language support for Atom-IDE.",
   "main": "./lib/main",
   "repository": {

@@ -20,3 +20,8 @@ Linting is managed by [Wist](https://github.com/willowtreeapps/wist/). As a resu
 ```
 
 More information about rules you can enable/disable are available [here](https://github.com/willowtreeapps/wist/)
+
+# Contributing to Atom IDE Brightscript
+
+Contributions and suggestions are more than welcome. Please see our [Code of Conduct](/CODE_OF_CONDUCT.md) as well as our [Contributing Guidelines ](/CONTRIBUTING.md)
+for more information.

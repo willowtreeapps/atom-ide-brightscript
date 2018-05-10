@@ -1,0 +1,22 @@
+'.source.brightscript':
+    'Function with no arguments':
+        prefix: 'func'
+        body: '''
+        function ${1:foo}() as ${2:bar}
+          ${0}
+        end function
+        '''
+    'Function with 1 argument':
+        prefix: 'func1'
+        body: '''
+        function ${1:name}(${2:param} as ${3:type}) as ${4:type}
+          ${0}
+        end function
+        '''
+    'Sub with no arguments':
+        prefix: 'sub'
+        body: '''
+        sub ${1:name}()
+          ${0}
+        end sub
+        '''

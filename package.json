@@ -18,7 +18,7 @@
     "watch": "./node_modules/typescript/bin/tsc -w -p ./"
   },
   "dependencies": {
-    "@willowtreeapps/hinoki": "^1.0.0-preview.4",
+    "@willowtreeapps/hinoki": "^1.0.1",
     "atom-languageclient": "0.6.4"
   },
   "devDependencies": {

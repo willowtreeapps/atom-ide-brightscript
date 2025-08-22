@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "@willowtreeapps/hinoki": "^1.0.0-preview.4",
-    "atom-languageclient": "0.6.4"
+    "atom-languageclient": "0.9.9"
   },
   "devDependencies": {
     "@types/node": "^8.0.31",
